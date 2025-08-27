@@ -38,9 +38,9 @@ header .container {
 
 .navegacion-principal {
     display: flex;
-    gap: 20px; /* separación entre enlaces */
+    gap: 20px; /* separación entre textos */
     list-style: none; /* quita viñetas */
-    padding: 0;
+    padding: 1rem;
     margin: 0;
 }
 
@@ -51,5 +51,24 @@ header .container {
 }
 
 .navegacion-principal a:hover {
-    color: #FFD700; /* ejemplo: amarillo dorado */
+    color: #F66809; /* ejemplo: amarillo dorado */
+}
+
+/* Footer */
+
+footer .container {
+    display: flex;
+    padding: 20px 0;
+    margin: 0;
+    border: 1px solid var(--tertiary-color);
+}
+
+.nombre {
+    display: flex;
+    justify-content: left;
+}
+
+.derechos {
+    display: flex;
+    justify-content: ;
 }
