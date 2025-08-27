@@ -36,17 +36,20 @@ header .container {
     padding: 0;
 }
 
-.navegacion-principal ul {
-
-}
-
-.navegacion-principal li {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 10px;
+.navegacion-principal {
+    display: flex;
+    gap: 20px; /* separación entre enlaces */
+    list-style: none; /* quita viñetas */
+    padding: 0;
+    margin: 0;
 }
 
 .navegacion-principal a {
     color: #FFFFFF;
+    text-decoration: none; /* quita el subrayado */
+    transition: color 0.3s ease;
 }
 
+.navegacion-principal a:hover {
+    color: #FFD700; /* ejemplo: amarillo dorado */
+}
