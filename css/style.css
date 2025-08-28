@@ -1,7 +1,7 @@
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #8D9191;
-    --tertiary-color: #70BDFF;
+    --tertiary-color: #00BBFF;
     --font-primary: Helvetica, sans-serif;
 }
 
@@ -29,9 +29,15 @@ h1, h2, h3 {
 
 /* Barra de navegación */
 
+header {
+    background-color: var(--tertiary-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 header .container {
     padding: 0;
-    background-color: var(--tertiary-color);
     display: flex;
     justify-content: center;
 }
@@ -51,22 +57,20 @@ header .container {
 }
 
 .navegacion-principal a:hover {
-    color: #F66809; /* ejemplo: amarillo dorado */
+    color: #0800FF; /* ejemplo: azul marino */
 }
 
 /* Parte main */
 
 main .container {
     max-width: 100%;
-    padding: 15rem 160px;
-    margin: 0;
-    border: 1px solid var(--tertiary-color);
+    padding: 220px 40px;
+    margin: 0 auto;
 }
 
 main .container h1 {
     font-size: 2.5rem;
 }
-
 
 /* Footer */
 
