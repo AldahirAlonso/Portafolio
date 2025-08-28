@@ -12,19 +12,23 @@
 }
 
 body {
+    background-color: var(--primary-color);
     font-family: var(--font-primary);
     line-height: 1.6;
-    background-color: var(--primary-color);
+
 }
 
 .container {
-    width: 100%;
+    padding: 100px 30px;
     margin: 0 auto;
-    padding: 0;
 }
 
 h1, h2, h3 {
     margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 5px;
 }
 
 /* Barra de navegación */
@@ -60,24 +64,37 @@ header .container {
     color: #0800FF; /* ejemplo: azul marino */
 }
 
-/* Parte main */
+/* Main */
 
-main .container {
-    max-width: 100%;
-    padding: 220px 40px;
-    margin: 0 auto;
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-main .container h1 {
+.hero-text {
+    max-width: 60%;
+}
+
+.hero-img {
+    width: 40%;
+    height: auto;
+}
+
+.hero-img img {
+    width: 75%;
+}
+
+main .hero-container h1 {
     font-size: 2.5rem;
 }
 
 /* Footer */
 
-footer .container {
+footer .footer-container {
+    background-color: slategray;
     padding: 30px 100px;
     margin: 0;
-    border: 1px solid var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     font-size: 1.1rem;
