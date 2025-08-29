@@ -84,6 +84,10 @@ header .container {
     font-size: 2rem;
 }
 
+.hero-container p {
+    font-size: 20px;
+}
+
 .hero-text {
     max-width: 60%;
 }
@@ -111,7 +115,7 @@ header .container {
 footer .footer-container {
     background-color: lightsteelblue;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 1);
-    padding: 30px 100px;
+    padding: 20px 100px;
     margin: 0;
     display: flex;
     justify-content: space-between;
