@@ -92,7 +92,7 @@ main .hero-container h1 {
 /* Footer */
 
 footer .footer-container {
-    background-color: slategray;
+    background-color: lightsteelblue;
     padding: 30px 100px;
     margin: 0;
     display: flex;
