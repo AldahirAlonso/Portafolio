@@ -2,7 +2,7 @@
     --primary-color: #FFFFFF;
     --secondary-color: #8D9191;
     --tertiary-color: #00BBFF;
-    --font-primary: Helvetica, sans-serif;
+    --font-primary: Arial, sans-serif;
 }
 
 * {
@@ -35,7 +35,10 @@ p {
 
 header {
     background-color: var(--tertiary-color);
+    font-family: Roboto;
+    font-size: 1.2rem;
     position: sticky;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
     top: 0;
     z-index: 1000;
 }
@@ -61,15 +64,24 @@ header .container {
 }
 
 .navegacion-principal a:hover {
-    color: #0800FF; /* ejemplo: azul marino */
+    color: blue; /* ejemplo: azul marino */
 }
 
 /* Main */
 
 .hero-container {
+    background-color: lightskyblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.hero-container h1 {
+    font-size: 2.5rem;
+}
+
+.hero-container h2 {
+    font-size: 2rem;
 }
 
 .hero-text {
@@ -85,14 +97,20 @@ header .container {
     width: 75%;
 }
 
-main .hero-container h1 {
-    font-size: 2.5rem;
+
+.about-container {
+    background-color: lightgreen;
+}
+
+.contact-container {
+    background-color: blanchedalmond;
 }
 
 /* Footer */
 
 footer .footer-container {
     background-color: lightsteelblue;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 1);
     padding: 30px 100px;
     margin: 0;
     display: flex;
