@@ -114,7 +114,7 @@ header .container {
     border: black solid 4px;
     padding: 20px 20px;
     width: 60%;
-
+    border-radius: 50px;
 }
 
 .about-container h2 {
