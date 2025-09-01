@@ -104,16 +104,17 @@ header .container {
 
 .about-container {
     background-color: lightgreen;
+    display: flex;
+    justify-content: center;
 }
 
 .about-container .about-text {
     background-color: white;
     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 1);
-    border: black solid 2px;
+    border: black solid 4px;
     padding: 20px 20px;
     width: 60%;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 .about-container h2 {
@@ -122,7 +123,7 @@ header .container {
 }
 
 .about-container p {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
 }
 
