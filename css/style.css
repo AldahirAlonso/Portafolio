@@ -102,6 +102,8 @@ header .container {
     width: 75%;
 }
 
+/* About */
+
 .about-container {
     background-color: lightgreen;
     display: flex;
@@ -110,10 +112,10 @@ header .container {
 
 .about-container .about-text {
     background-color: white;
-    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 1);
     border: black solid 4px;
     padding: 20px 20px;
     width: 60%;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 1);
     border-radius: 50px;
 }
 
@@ -127,8 +129,27 @@ header .container {
     text-align: center;
 }
 
+/* Formulario */
+
 .contact-container {
     background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container h2 {
+    font-size: 2.0rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info {
+    padding: 80px 80px;
+    margin: 80px 80px;
+    font-size: 1.2rem;
+    border: black solid 5px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Footer */
