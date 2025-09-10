@@ -163,3 +163,38 @@ footer .footer-container {
     justify-content: space-between;
     font-size: 1.1rem;
 }
+
+/* Pagina Sobre Mi */
+
+.about-me {
+    background-color: lightblue;
+    padding: 100px 60px;
+}
+
+.about-info {
+    margin-bottom: 40px;
+}
+
+.skills h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    width: 50px;
+    height: 50px;
+}
+
+.skills img {
+    width: 100%;
+    height: auto;
+}
