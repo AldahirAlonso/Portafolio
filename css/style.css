@@ -18,7 +18,7 @@ body {
 
 }
 
-.container {
+.main-container {
     padding: 120px 40px;
     margin: 0 auto;
 }
@@ -31,7 +31,7 @@ p {
     margin-bottom: 5px;
 }
 
-/* Barra de navegación */
+/* Navigation Bar */
 
 header {
     background-color: var(--tertiary-color);
@@ -43,13 +43,13 @@ header {
     z-index: 1000;
 }
 
-header .container {
+header .main-container {
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.navegacion-principal {
+.navigation-bar {
     padding: 1rem;
     margin: 0;
     display: flex;
@@ -57,13 +57,13 @@ header .container {
     list-style: none; /* quita viñetas */
 }
 
-.navegacion-principal a {
+.navigation-bar a {
     color: #FFFFFF;
     text-decoration: none; /* quita el subrayado */
     transition: color 0.3s ease;
 }
 
-.navegacion-principal a:hover {
+.navigation-bar a:hover {
     color: blue; /* ejemplo: azul marino */
 }
 
@@ -104,13 +104,13 @@ header .container {
 
 /* About */
 
-.about-container {
+.info-container {
     background-color: lightgreen;
     display: flex;
     justify-content: center;
 }
 
-.about-container .about-text {
+.info-container .info-text {
     background-color: white;
     border: black solid 4px;
     padding: 20px 20px;
@@ -119,17 +119,17 @@ header .container {
     border-radius: 50px;
 }
 
-.about-container h2 {
+.info-container h2 {
     font-size: 2.0rem;
     text-align: center;
 }
 
-.about-container p {
+.info-container p {
     font-size: 20px;
     text-align: center;
 }
 
-/* Formulario */
+/* Formulary */
 
 .contact-container {
     background-color: blanchedalmond;
@@ -143,7 +143,7 @@ header .container {
     align-items: center;
 }
 
-.contact-info {
+.contact {
     padding: 80px 80px;
     margin: 80px 80px;
     font-size: 1.2rem;
@@ -164,15 +164,24 @@ footer .footer-container {
     font-size: 1.1rem;
 }
 
-/* Pagina Sobre Mi */
+/* About Me Page */
 
-.about-me {
+.secondary-container {
     background-color: lightblue;
-    padding: 100px 60px;
+    padding: 180px 60px;
 }
 
-.about-info {
-    margin-bottom: 40px;
+.aboutme {
+
+}
+
+.me-img {
+    width: 40%;
+    height: auto;
+}
+
+.me-img img {
+    width: 100%;
 }
 
 .skills h2 {
