@@ -167,7 +167,7 @@ footer .footer-container {
 /* About Me Page */
 
 .secondary-container {
-    padding: 140px 60px;
+    padding: 110px 60px;
     margin: 0 auto;
 }
 
@@ -185,14 +185,14 @@ footer .footer-container {
 }
 
 .me-img {
-    width: 130%;
+    width: 110%;
     height: auto;
 }
 
 .me-img img {
     width: 90%;
     border: black solid 6px;
-    border-radius: 250px;
+    border-radius: 40%;
 }
 
 .skill-container {
