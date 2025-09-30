@@ -231,3 +231,17 @@ footer .footer-container {
     padding: 120px 80px;
     margin: 0 auto;
 }
+
+.projects-container {
+    background-color: #FFFFFF;
+    padding: 100px 120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.projects {
+    padding: 80px 100px;
+    border: black solid 3px;
+}
