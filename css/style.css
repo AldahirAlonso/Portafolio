@@ -129,27 +129,29 @@ header .main-container {
     text-align: center;
 }
 
-/* Formulary */
+/* Formulario */
 
 .contact-container {
+    padding: 50px 20px;
     background-color: blanchedalmond;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-container h2 {
     font-size: 2.0rem;
-    display: flex;
-    align-items: center;
 }
 
 .contact {
-    padding: 80px 80px;
-    margin: 80px 80px;
+    padding: 80px 100px;
+    margin: 20px auto;
+    max-width: 420px;
+    background-color: white;
     font-size: 1.2rem;
     border: black solid 5px;
-    display: flex;
-    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 1);
 }
 
 /* Footer */
@@ -164,7 +166,7 @@ footer .footer-container {
     font-size: 1.1rem;
 }
 
-/* About Me */
+/* -----Parte sobre mi----- */
 
 .secondary-container {
     padding: 120px 60px;
@@ -359,4 +361,19 @@ footer .footer-container {
     color: orange;
     transform: translate(7px);
     transition: 1.3s;
+}
+
+/* PARTE CONTACTO */
+
+.four-container {
+    background-color: lightcyan;
+    padding: 51px 400px;
+}
+
+.contact-div {
+    padding: 180px 60px;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 50px;
+    box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 1);
 }
