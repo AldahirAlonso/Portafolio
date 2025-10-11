@@ -19,7 +19,7 @@ body {
 }
 
 .main-container {
-    padding: 120px 40px;
+    padding: 160px 40px;
     margin: 0 auto;
 }
 
@@ -34,11 +34,11 @@ p {
 /* Navigation Bar */
 
 header {
-    background-color: var(--tertiary-color);
-    font-family: Roboto;
+    background-color: yellowgreen;
+    font-weight: bold;
     font-size: 1.2rem;
     position: sticky;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
     top: 0;
     z-index: 1000;
 }
@@ -64,14 +64,13 @@ header .main-container {
 }
 
 .navigation-bar a:hover {
-    color: blue; /* ejemplo: azul marino */
+    color: black; /* ejemplo: azul marino */
 }
 
 /* Main */
 
 .hero-container {
-    background: #00BBFF;
-    background: linear-gradient(180deg, rgba(0, 187, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: lightskyblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -157,19 +156,21 @@ header .main-container {
 /* Footer */
 
 footer .footer-container {
-    background-color: lightsteelblue;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 1);
-    padding: 20px 100px;
+    background-color: yellowgreen;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
+    padding: 20px 60px;
     margin: 0;
     display: flex;
     justify-content: space-between;
     font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
 }
 
 /* -----Parte sobre mi----- */
 
 .secondary-container {
-    padding: 120px 60px;
+    padding: 100px 60px;
     margin: 0 auto;
 }
 
@@ -198,16 +199,17 @@ footer .footer-container {
 }
 
 .skill-container {
-    background-color: gainsboro;
+    background-color: ghostwhite;
 }
 
-.skills-text h2 {
-    font-size: 2.4rem;
-    text-shadow: coral 5px 4px 3px;
+.skills-text h1 {
+    font-size: 2.7rem;
+    text-align: center;
 }
 
 .skills-text p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    text-align: center;
 }
 
 .skills {
@@ -221,86 +223,103 @@ footer .footer-container {
 .java:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .springboot:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .python:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .php:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .html:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .css:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .tailwindcss:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .javascript:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .typescript:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .react:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .mysql:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .postgresql:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .mongodb:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .git:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .github:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .linux:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .docker:hover {
     transform: scale(1.2);
     transition: 1s;
+    cursor: pointer;
 }
 
 .skills li {
@@ -313,30 +332,45 @@ footer .footer-container {
     height: auto;
 }
 
-/* Portfolio */
+/* -----SECCION PORTAFOLIO----- */
 
 .three-container {
-    background-color: lightcyan;
+    background-color: whitesmoke;
     padding: 120px 80px;
     margin: 0 auto;
 }
 
+.three-container h1 {
+    font-size: 2.0rem;
+    text-align: center;
+    font-family: "Roboto Light", sans-serif;
+}
+
 .three-container p {
  font-size: 1.2rem;
+    text-align: center;
+    font-family: "Roboto Light", sans-serif;
 }
 
 .projects-container {
-    background-color: #FFFFFF;
+    background-color: ghostwhite;
     padding: 100px 120px;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 
 .projects {
-    padding: 100px 20px;
-    border: black solid 3px;
-    border-radius: 30px;
+    padding: 8px;
+    border-radius: 25px;
+    border: black solid 5px;
+    box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 1);
+    font-family: "Roboto Light", sans-serif;
+}
+
+.project-img {
+    width: 100%;
 }
 
 .project1:hover  {
@@ -370,10 +404,13 @@ footer .footer-container {
     padding: 51px 400px;
 }
 
-.contact-div {
-    padding: 180px 60px;
-    background-color: white;
-    border: black solid 2px;
-    border-radius: 50px;
+.contact-form {
+    padding: 85px 100px;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: black solid 10px;
+    border-radius: 60px;
     box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 1);
 }
