@@ -34,7 +34,7 @@ p {
 /* Navigation Bar */
 
 header {
-    background-color: yellowgreen;
+    background-color: cornflowerblue;
     font-weight: bold;
     font-size: 1.2rem;
     position: sticky;
@@ -70,22 +70,28 @@ header .main-container {
 /* Main */
 
 .hero-container {
-    background: lightskyblue;
+    background: ghostwhite;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .hero-container h1 {
-    font-size: 2.5rem;
+    color: black;
+    font-size: 2.3rem;
+    font-weight: inherit;
 }
 
 .hero-container h2 {
+    color: black;
     font-size: 2rem;
+    font-weight: inherit;
 }
 
 .hero-container p {
+    color: black;
     font-size: 20px;
+    font-family: "Roboto Light", sans-serif;
 }
 
 .hero-text {
@@ -156,7 +162,7 @@ header .main-container {
 /* Footer */
 
 footer .footer-container {
-    background-color: yellowgreen;
+    background-color: cornflowerblue;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
     padding: 20px 60px;
     margin: 0;
@@ -175,10 +181,14 @@ footer .footer-container {
 }
 
 .about-container {
-    background-color: lightyellow;
+    background-color: lightblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.about-container h1 {
+    font-weight: inherit;
 }
 
 .about-text p {
@@ -205,6 +215,7 @@ footer .footer-container {
 .skills-text h1 {
     font-size: 2.7rem;
     text-align: center;
+    font-weight: inherit;
 }
 
 .skills-text p {
@@ -335,15 +346,15 @@ footer .footer-container {
 /* -----SECCION PORTAFOLIO----- */
 
 .three-container {
-    background-color: whitesmoke;
+    background-color:ghostwhite;
     padding: 120px 80px;
     margin: 0 auto;
 }
 
 .three-container h1 {
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     text-align: center;
-    font-family: "Roboto Light", sans-serif;
+    font-weight: inherit;
 }
 
 .three-container p {
@@ -405,12 +416,12 @@ footer .footer-container {
 }
 
 .contact-form {
-    padding: 85px 100px;
+    padding: 91px 100px;
     background-color: ghostwhite;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    border: black solid 10px;
+    border: black solid 4px;
     border-radius: 60px;
     box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 1);
 }
