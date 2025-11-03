@@ -15,7 +15,13 @@ body {
     background-color: var(--primary-color);
     font-family: var(--font-primary);
     line-height: 1.6;
+}
 
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
 }
 
 .main-container {
@@ -34,7 +40,7 @@ p {
 /* Navigation Bar */
 
 header {
-    background-color: cornflowerblue;
+    background-color: #1C28AD;
     font-weight: bold;
     font-size: 1.2rem;
     position: sticky;
@@ -67,29 +73,30 @@ header .main-container {
     color: black; /* ejemplo: azul marino */
 }
 
-/* Main */
+/* Hero */
 
 .hero-container {
-    background: ghostwhite;
+    background-color: #145C8F;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
 
 .hero-container h1 {
-    color: black;
+    color: white;
     font-size: 2.3rem;
     font-weight: inherit;
 }
 
 .hero-container h2 {
-    color: black;
+    color: white;
     font-size: 2rem;
-    font-weight: inherit;
+    font-weight: bold;
 }
 
 .hero-container p {
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: "Roboto Light", sans-serif;
 }
@@ -110,9 +117,11 @@ header .main-container {
 /* Info */
 
 .info-container {
-    background-color: lightgreen;
+    background-color: #145C8F;
     display: flex;
     justify-content: center;
+    z-index: 99;
+
 }
 
 .info-container .info-text {
@@ -138,10 +147,11 @@ header .main-container {
 
 .contact-container {
     padding: 50px 20px;
-    background-color: blanchedalmond;
+    background-color: #145C8F;
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 99;
 }
 
 .contact-container h2 {
@@ -347,41 +357,40 @@ footer .footer-container {
 
 .three-container {
     background-color:ghostwhite;
-    padding: 120px 80px;
+    padding: 230px 80px;
     margin: 0 auto;
 }
 
 .three-container h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-align: center;
     font-weight: inherit;
+    z-index: 100;
 }
 
 .three-container p {
- font-size: 1.2rem;
+ font-size: 1.3rem;
     text-align: center;
     font-family: "Roboto Light", sans-serif;
 }
 
 .projects-container {
     background-color: ghostwhite;
-    padding: 100px 120px;
+    padding: 100px 110px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 60px;
+    z-index: 100;
 }
 
 .projects {
-    padding: 8px;
-    border-radius: 25px;
-    border: black solid 5px;
-    box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 1);
+    padding: 15px;
+    border-radius: 20px;
+    border: black solid 2px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 1);
     font-family: "Roboto Light", sans-serif;
-}
-
-.project-img {
-    width: 100%;
+    z-index: 100;
 }
 
 .project1:hover  {
@@ -406,6 +415,10 @@ footer .footer-container {
     color: orange;
     transform: translate(7px);
     transition: 1.3s;
+}
+
+.project-img {
+    width: 100%;
 }
 
 /* PARTE CONTACTO */
