@@ -40,13 +40,13 @@ p {
 /* Navigation Bar */
 
 header {
-    background-color: #1C28AD;
+    background-color: royalblue;
     font-weight: bold;
     font-size: 1.2rem;
     position: sticky;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
     top: 0;
-    z-index: 1000;
+    z-index: 100;
 }
 
 header .main-container {
@@ -66,7 +66,7 @@ header .main-container {
 .navigation-bar a {
     color: #FFFFFF;
     text-decoration: none; /* quita el subrayado */
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
 }
 
 .navigation-bar a:hover {
@@ -76,7 +76,7 @@ header .main-container {
 /* Hero */
 
 .hero-container {
-    background-color: #145C8F;
+    background-image: linear-gradient(to top, #00afe5, #00b5ec, #00bbf2, #00c2f9, #00c8ff);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,8 +106,8 @@ header .main-container {
 }
 
 .hero-img {
-    width: 40%;
     height: auto;
+    z-index: 100;
 }
 
 .hero-img img {
@@ -117,20 +117,20 @@ header .main-container {
 /* Info */
 
 .info-container {
-    background-color: #145C8F;
+    background-image: linear-gradient(to top, #00afe5, #00afe4, #00afe2, #00afe1, #00afdf);
     display: flex;
     justify-content: center;
     z-index: 99;
 
 }
 
-.info-container .info-text {
+.info-container .info {
     background-color: white;
-    border: black solid 4px;
+    border: black solid 3px;
     padding: 20px 20px;
-    width: 60%;
-    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 1);
-    border-radius: 50px;
+    width: 80%;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 1);
+    border-radius: 25px;
 }
 
 .info-container h2 {
@@ -146,8 +146,8 @@ header .main-container {
 /* Formulario */
 
 .contact-container {
+    background-image: linear-gradient(to top, #00afe5, #00afe4, #00afe2, #00afe1, #00afdf);
     padding: 50px 20px;
-    background-color: #145C8F;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,15 +161,22 @@ header .main-container {
 .contact {
     padding: 80px 100px;
     margin: 20px auto;
-    max-width: 420px;
-    background-color: white;
+    max-width: 400px;
+    background: #FFFFFF;
     font-size: 1.2rem;
-    border: black solid 5px;
-    border-radius: 50px;
-    box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 1);
+    border: black solid 3px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 1);
 }
 
 /* Footer */
+footer {
+    z-index: 99;
+}
+
+footer .main-container {
+    z-index: 99;
+}
 
 footer .footer-container {
     background-color: cornflowerblue;
@@ -178,9 +185,10 @@ footer .footer-container {
     margin: 0;
     display: flex;
     justify-content: space-between;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: bold;
+    z-index: 99;
 }
 
 /* -----Parte sobre mi----- */
@@ -333,12 +341,12 @@ footer .footer-container {
 }
 
 .contact-form {
-    padding: 91px 100px;
+    padding: 105px 60px;
     background-color: ghostwhite;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    border: black solid 4px;
-    border-radius: 60px;
-    box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 1);
+    border: black solid 3px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 1);
 }
