@@ -265,7 +265,7 @@ footer .footer-container {
     box-shadow: 1px 1px 14px 1px rgba(0, 0, 0, 1);
     font-family: "Roboto Light", sans-serif;
     font-weight: bold;
-    z-index: 100;
+    z-index: 99;
 }
 
 .project1:hover  {
@@ -314,7 +314,7 @@ footer .footer-container {
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    z-index: 100;
+    z-index: 99;
 }
 
 .skill:hover {
