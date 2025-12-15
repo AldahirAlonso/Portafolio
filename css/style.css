@@ -380,7 +380,25 @@ footer .footer-container {
 }
 
 /* ------MEDIA QUERIES------ */
-@media (max-width: 768px) {
+@media (max-width: 400px) {
+    .navegation-bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .navegation-bar li {
+        margin: 0;
+    }
+
+    .navegation-bar a {
+        font-size: 1.5rem;
+    }
+
+    .navegation-bar a:hover {
+        font-size: 1.7rem;
+    }
+
     .hero-container {
         flex-direction: column;
         text-align: center;
@@ -403,16 +421,28 @@ footer .footer-container {
     .projects-container {
         grid-template-columns: 1fr;
     }
-}
 
-@media (max-width: 480px) {
-    header .main-container {
-        flex-direction: column;
-        align-items: center;
+    .info-container {
+        padding: 10px;
     }
 
-    .navigation-bar {
+    .info-container .info {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .info-container p {
+        font-size: 16px;
+    }
+
+    .contact {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .footer-container {
         flex-direction: column;
-        gap: 20px;
+        text-align: center;
+        gap: 8px;
     }
 }
