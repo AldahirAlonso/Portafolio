@@ -388,11 +388,15 @@ footer .footer-container {
     }
 
     .navegation-bar li {
-        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
     }
 
     .navegation-bar a {
-        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
     }
 
     .navegation-bar a:hover {
