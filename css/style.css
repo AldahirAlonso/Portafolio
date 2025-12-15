@@ -381,8 +381,13 @@ footer .footer-container {
 
 /* ------MEDIA QUERIES------ */
 @media (max-width: 480px) {
+    .navigation-bar {
+        gap: 20px;
+        font-size: 1.1rem;
+    }
+
     .hero-container {
-        padding: 50px;
+        padding: 60px;
         flex-direction: column;
         text-align: center;
     }
@@ -399,6 +404,13 @@ footer .footer-container {
 
     .about-text p {
         margin-right: 0;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 80px;
     }
 
     .projects-container {
