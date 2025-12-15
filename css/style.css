@@ -380,7 +380,7 @@ footer .footer-container {
 }
 
 /* ------MEDIA QUERIES------ */
-@media (max-width: 600px) {
+@media (max-width: 728px) {
     .navegation-bar {
         flex-direction: column;
         align-items: center;
