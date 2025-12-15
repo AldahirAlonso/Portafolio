@@ -381,10 +381,15 @@ footer .footer-container {
 
 /* ------MEDIA QUERIES------ */
 @media (max-width: 480px) {
+
+/* DISEÑO RESPONSIVO PARA BARRA DE NAVEGACION. */
+
     .navigation-bar {
         gap: 20px;
         font-size: 1.1rem;
     }
+
+/* DISEÑO RESPONSIVO PARA SECCION HERO. */
 
     .hero-container {
         padding: 60px;
@@ -394,27 +399,16 @@ footer .footer-container {
 
     .hero-text {
         max-width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hero-img img {
+        width: 100%;
     }
 
     .about-container {
         flex-direction: column;
         text-align: center;
-    }
-
-    .about-text p {
-        margin-right: 0;
-    }
-
-    .skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        gap: 80px;
-    }
-
-    .projects-container {
-        grid-template-columns: 1fr;
     }
 
     .info-container {
@@ -427,7 +421,7 @@ footer .footer-container {
     }
 
     .info-container p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .contact {
@@ -439,5 +433,54 @@ footer .footer-container {
         flex-direction: column;
         text-align: center;
         gap: 8px;
+    }
+
+/* DISEÑO RESPONSIVO PARA SECCION SOBRE MI. */
+
+    .secondary-container {
+        padding: 20px 10px;
+    }
+
+    .about-container {
+        padding: 25px;
+    }
+
+    .about-container h1 {
+        font-size: 2rem;
+    }
+
+    .about-container p {
+        font-size: 19px;
+    }
+
+    .about-text p {
+        margin-right: 0;
+    }
+
+    .me-img img {
+        width: 60%;
+    }
+
+/* DISEÑO RESPONSIVO PARA SECCION PORTAFOLIO. */
+
+    .three-container {
+        padding: 60px 20px;
+    }
+
+    .skill-container {
+        padding: 20px;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 40px;
     }
 }
