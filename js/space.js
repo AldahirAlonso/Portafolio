@@ -1,7 +1,7 @@
 window.sr = ScrollReveal();
 
 sr.reveal('.projects-container', {
-    duration: 2800,
+    duration: 2600,
     origin: 'bottom',
     distance: '100px'
 });

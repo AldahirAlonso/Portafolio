@@ -1,19 +1,19 @@
 window.sr = ScrollReveal();
 
 sr.reveal('.hero-container', {
-    duration: 1000,
+    duration: 1200,
     origin: 'bottom',
     distance: '-100px'
 });
 
 sr.reveal('.info-container', {
-    duration: 1000,
+    duration: 1500,
     origin: 'github',
     distance: '-100px'
 });
 
 sr.reveal('.contact-container', {
-    duration: 1000,
+    duration: 1500,
     origin: 'attract',
     distance: '-100px'
 });
