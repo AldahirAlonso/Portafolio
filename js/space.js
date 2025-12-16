@@ -1,3 +1,11 @@
+window.sr = ScrollReveal();
+
+sr.reveal('.projects-container', {
+    duration: 2800,
+    origin: 'bottom',
+    distance: '100px'
+});
+
 particlesJS(
     {
         "particles": {

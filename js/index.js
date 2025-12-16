@@ -1,3 +1,25 @@
+window.sr = ScrollReveal();
+
+sr.reveal('.hero-container', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+
+sr.reveal('.info-container', {
+    duration: 1000,
+    origin: 'github',
+    distance: '-100px'
+});
+
+sr.reveal('.contact-container', {
+    duration: 1000,
+    origin: 'attract',
+    distance: '-100px'
+});
+
+// Configuración de PartículasJS
+
 particlesJS(
     {
         "particles": {
