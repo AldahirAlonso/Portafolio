@@ -7,13 +7,13 @@ sr.reveal('.hero-container', {
 });
 
 sr.reveal('.info-container', {
-    duration: 1500,
+    duration: 2500,
     origin: 'github',
     distance: '-100px'
 });
 
 sr.reveal('.contact-container', {
-    duration: 1500,
+    duration: 2500,
     origin: 'attract',
     distance: '-100px'
 });
