@@ -30,7 +30,7 @@ body {
 }
 
 .main-container {
-    padding: 132px 40px;
+    padding: 140px 40px;
     margin: 0 auto;
     z-index: 102;
 }
@@ -127,6 +127,17 @@ header .main-container {
     border-radius: 200px;
     width: 80%;
     z-index: 111;
+}
+
+.hero-container button{
+    padding: 10px 15px;
+    background-image: linear-gradient(45deg, #ff8800, #ff4500);
+    color: white;
+    border: none;
+    font-size: 1.15rem;
+    font-weight: bolder;
+    cursor: pointer;
+    z-index: 110;
 }
 
 /* Parte de Informacion Personal. */
@@ -300,78 +311,6 @@ footer .footer-container {
     text-align: center;
 }
 
-.projects-container {
-    background-color: ghostwhite;
-    padding: 100px 60px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-}
-
-.projects {
-    padding: 12px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 1);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    cursor: pointer;
-    z-index: 110;
-    /* --- NUEVO CODIGO PARA BORDE GRADIENTE --- */
-    /* 1. Definimos el grosor del borde y lo hacemos transparente */
-    border: 5px solid transparent;
-
-    /* 2. Definimos dos fondos:
-          - El primero es el color interno de la tarjeta (blanco para que resalte)
-          - El segundo es el gradiente que quieres en el borde (de azul a morado aquí) */
-    background-image: linear-gradient(white, white),
-                      linear-gradient(to right, #00BFFF, #c300ff);
-
-    /* 3. Decimos desde dónde empieza a dibujarse el fondo */
-    background-origin: border-box;
-
-    /* 4. La magia: Recortamos el primer fondo para que solo cubra el contenido,
-          y dejamos que el segundo fondo (el gradiente) cubra todo hasta el borde */
-    background-clip: padding-box, border-box;
-    /* ---------------------------------------- */
-}
-
-.project1:hover  {
-    color: #00BBFF;
-    transform: translateY(-12px);
-    transition: 0.2s;
-    font-weight: bold;
-    box-shadow: 1px 6px 8px 2px #00BFFF;
-}
-
-.project2:hover  {
-    color: yellowgreen;
-    transform: translateY(-12px);
-    transition: 0.2s;
-    font-weight: bold;
-    box-shadow: 1px 6px 8px 2px #c300ff;
-}
-
-.project3:hover  {
-    color: red;
-    transform: translateY(-12px);
-    transition: 0.2s;
-    font-weight: bold;
-    box-shadow: 1px 4px 8px 2px #00BFFF;
-
-}
-
-.project4:hover  {
-    color: orange;
-    transform: translateY(-12px);
-    transition: 0.2s;
-    font-weight: bold;
-    box-shadow: 1px 4px 8px 2px #c300ff;
-}
-
-.project-img {
-    width: 100%;
-}
-
 .skill-container {
     background-color: ghostwhite;
     z-index: 100;
@@ -407,6 +346,84 @@ footer .footer-container {
 .skills img {
     width: 155%;
     height: auto;
+}
+
+.projects-container {
+    background-color: ghostwhite;
+    padding: 100px 60px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.projects {
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    z-index: 110;
+    /* --- NUEVO CODIGO PARA BORDE GRADIENTE --- */
+    /* 1. Definimos el grosor del borde y lo hacemos transparente */
+    border: 5px solid transparent;
+
+    /* 2. Definimos dos fondos:
+          - El primero es el color interno de la tarjeta (blanco para que resalte)
+          - El segundo es el gradiente que quieres en el borde (de azul a morado aquí) */
+    background-image: linear-gradient(white, white),
+                      linear-gradient(to right, #00BFFF, #c300ff);
+
+    /* 3. Decimos desde dónde empieza a dibujarse el fondo */
+    background-origin: border-box;
+
+    /* 4. La magia: Recortamos el primer fondo para que solo cubra el contenido,
+          y dejamos que el segundo fondo (el gradiente) cubra todo hasta el borde */
+    background-clip: padding-box, border-box;
+    /* ---------------------------------------- */
+}
+
+.projects button{
+    padding: 10px 15px;
+    background-image: linear-gradient(45deg, #ff8800, #ff4500);
+    color: white;
+    border: none;
+    font-size: 1.15rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.project1:hover  {
+    color: #00BBFF;
+    transform: translateY(-12px);
+    transition: 0.2s;
+    box-shadow: 1px 6px 8px 2px #00BFFF;
+}
+
+.project2:hover  {
+    color: yellowgreen;
+    transform: translateY(-12px);
+    transition: 0.2s;
+    box-shadow: 1px 6px 8px 2px #c300ff;
+}
+
+.project3:hover  {
+    color: red;
+    transform: translateY(-12px);
+    transition: 0.2s;
+    box-shadow: 1px 4px 8px 2px #00BFFF;
+
+}
+
+.project4:hover  {
+    color: orange;
+    transform: translateY(-12px);
+    transition: 0.2s;
+    box-shadow: 1px 4px 8px 2px #c300ff;
+}
+
+.project-img {
+    width: 100%;
 }
 
 /* ------MEDIA QUERIES------ */
