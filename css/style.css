@@ -129,14 +129,16 @@ header .main-container {
     z-index: 111;
 }
 
-.hero-container button{
+.hero-container a{
     padding: 10px 15px;
     background-image: linear-gradient(45deg, #ff8800, #ff4500);
+    background-image: linear-gradient(45deg, #18b800, #0f7300);
     color: white;
     border: none;
     font-size: 1.15rem;
     font-weight: bolder;
     cursor: pointer;
+    text-decoration: none;
     z-index: 110;
 }
 
@@ -293,7 +295,7 @@ footer .footer-container {
 
 .three-container {
     background-color:ghostwhite;
-    padding: 220px 80px;
+    padding: 240px 80px;
     margin: 0 auto;
     z-index: 101;
 }
@@ -350,11 +352,11 @@ footer .footer-container {
 
 .projects-container {
     background-color: ghostwhite;
-    padding: 100px 60px;
+    padding: 150px 20px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 40px;
 }
 
 .projects {
@@ -393,6 +395,17 @@ footer .footer-container {
     cursor: pointer;
 }
 
+.projects a{
+    padding: 10px 10px;
+    background-image: linear-gradient(45deg, #18b800, #0f7300);
+    color: white;
+    border: none;
+    font-size: 1.15rem;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .project1:hover  {
     color: #00BBFF;
     transform: translateY(-12px);
@@ -412,10 +425,16 @@ footer .footer-container {
     transform: translateY(-12px);
     transition: 0.2s;
     box-shadow: 1px 4px 8px 2px #00BFFF;
-
 }
 
 .project4:hover  {
+    color: orange;
+    transform: translateY(-12px);
+    transition: 0.2s;
+    box-shadow: 1px 4px 8px 2px #c300ff;
+}
+
+.project5:hover  {
     color: orange;
     transform: translateY(-12px);
     transition: 0.2s;
