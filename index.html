@@ -30,7 +30,7 @@
         <div class="main-container hero-container" >
             <div class="hero-text">
                 <h1>Hola, Soy Aldahir! 😸</h1>
-                <h2>Desarrollador Full Stack 💻</h2>
+                <h2><span class="multiple-text"></span></h2>
                 <p>Apasionado por crear soluciones tecnologicas unicas y funcionales. 💎</p>
                 <p>Actualmente estoy trabajando con Java y JavaScript para crear aplicaciones robustas. ☕</p>
                 <p>Me gusta seguir aprendiendo nuevas tecnologias para crear cosas nuevas. 🔮</p>
@@ -86,5 +86,25 @@
     <script src="particles.min.js"></script>
     <script src="js/index.js"></script>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('.multiple-text', {
+            strings: [
+                'Desarrollo Full Stack 💻',
+                'Java | Spring Boot 🍃',
+                'JavaScript | NestJS 🐯',
+                'Estudiante en UTEZ 📚',
+                'Amante de la Tecnología 📱'
+            ],
+            typeSpeed: 60,       // Velocidad de escritura (más bajo es más rápido)
+            backSpeed: 30,       // Velocidad de borrado
+            backDelay: 2000,     // Tiempo que espera antes de borrar la frase
+            loop: true,          // Para que se repita infinitamente
+            showCursor: true,    // Muestra la barrita parpadeante |
+            cursorChar: '|',     // El caracter del cursor
+            autoInsertCss: true  // Inserta el CSS necesario automáticamente
+        });
+</script>
 </body>
 </html>

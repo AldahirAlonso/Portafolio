@@ -84,7 +84,7 @@ header .main-container {
 /* ------Seccion Hero Parte principal------ */
 
 .hero-container {
-    background-image: linear-gradient(to top, #0071a6, #51e8ff);
+    background-image: linear-gradient(160deg, #00BFFF, #00BFFF, #c300ff);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -133,7 +133,7 @@ header .main-container {
 
 .info-container {
     padding: 150px;
-    background-image: linear-gradient(to top, #4fcf00, #56e000);
+    background-image: linear-gradient(170deg, #66CDAA, #1B4D3E);
     display: flex;
     justify-content: center;
     z-index: 101;
@@ -157,7 +157,7 @@ header .main-container {
 /* Parte del Formulario */
 
 .contact-container {
-    background-image: linear-gradient(to top, #ff8c00, #ffa75f);
+    background-image: linear-gradient(160deg, #da7800, #ffa73c);
     padding: 60px 30px;
     display: flex;
     flex-direction: column;
@@ -221,6 +221,10 @@ header .main-container {
     justify-items: center;
 }
 
+.contact form button:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
 /* Parte de Footer */
 
 footer .footer-container {
@@ -244,7 +248,7 @@ footer .footer-container {
 }
 
 .about-container {
-    background-image: linear-gradient(to right, #20b9ff, #78d4ff);
+    background-image: linear-gradient(40deg, #00BFFF, #00BFFF, #c300ff);
     display: flex;
     justify-content: space-between;
     align-items: center;
