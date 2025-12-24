@@ -468,11 +468,11 @@ footer .footer-container {
 /* DISEÑO RESPONSIVO PARA SECCION SOBRE MI. */
 
     .secondary-container {
-        padding: 20px 10px;
+        padding: 20px 20px;
     }
 
     .about-container {
-        padding: 25px;
+        padding: 20px;
     }
 
     .about-container h1 {
@@ -516,8 +516,6 @@ footer .footer-container {
     .skill-container p {
         font-size: 1.2rem;
     }
-
-    .skills
 
     .skills {
         display: grid;
