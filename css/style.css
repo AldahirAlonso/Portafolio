@@ -99,6 +99,14 @@ header .main-container {
     z-index: 104;
 }
 
+.aldahir {
+    color: #DD00FF;
+}
+
+.multiple-text {
+    color: #000080;
+}
+
 .hero-container h2 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -131,7 +139,6 @@ header .main-container {
 
 .hero-container a{
     padding: 10px 15px;
-    background-image: linear-gradient(45deg, #ff8800, #ff4500);
     background-image: linear-gradient(45deg, #18b800, #0f7300);
     color: white;
     border: none;
@@ -386,8 +393,8 @@ footer .footer-container {
 }
 
 .projects button{
-    padding: 10px 15px;
-    background-image: linear-gradient(45deg, #ff8800, #ff4500);
+    padding: 10px 8px;
+    background-image: linear-gradient(45deg, #ff4500, #ff8800);
     color: white;
     border: none;
     font-size: 1.15rem;
@@ -396,7 +403,7 @@ footer .footer-container {
 }
 
 .projects a{
-    padding: 10px 10px;
+    padding: 10px 4px;
     background-image: linear-gradient(45deg, #18b800, #0f7300);
     color: white;
     border: none;
@@ -435,7 +442,14 @@ footer .footer-container {
 }
 
 .project5:hover  {
-    color: orange;
+    color: purple;
+    transform: translateY(-12px);
+    transition: 0.2s;
+    box-shadow: 1px 4px 8px 2px #00BFFF;
+}
+
+.project6:hover  {
+    color: purple;
     transform: translateY(-12px);
     transition: 0.2s;
     box-shadow: 1px 4px 8px 2px #c300ff;
