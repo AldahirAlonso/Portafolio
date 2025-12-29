@@ -394,7 +394,7 @@ footer .footer-container {
 
 .projects button{
     padding: 10px 8px;
-    background-image: linear-gradient(45deg, #ff4500, #ff8800);
+    background-image: linear-gradient(45deg, #ff4400, #ff8800);
     color: white;
     border: none;
     font-size: 1.15rem;
@@ -449,7 +449,7 @@ footer .footer-container {
 }
 
 .project6:hover  {
-    color: purple;
+    color: darkblue;
     transform: translateY(-12px);
     transition: 0.2s;
     box-shadow: 1px 4px 8px 2px #c300ff;
